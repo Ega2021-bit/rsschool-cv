@@ -4,11 +4,11 @@
 - email: egor91594@gmail.com
 - skype: egor91594
 
-#### Summary
+### Summary
 
  Great desire to work in the field of IT. Start a junior career at EPAM and after 4 years, before growing up to senior. I have good analytical skills, I am easy to learn, I work well in a team.
 
-#### Skills
+### Skills
 
 - HTML
 - CSS
@@ -17,7 +17,7 @@
 - Git
 - GitHub
 
-#### Experience
+### Experience
 
 **Course "JavaScript/Front-end"**
 The Rolling Scopes 
@@ -36,7 +36,7 @@ The Rolling Scopes
 - Website layout using HTML/CSS
 - Publishing a site on GitHub Pages
 
-#### Education
+### Education
 
 **Course "JavaScript/Front-end"**
 The Rolling Scopes 
@@ -50,6 +50,6 @@ The Rolling Scopes
 [Udemy](udemy.com)
 1.12.2020 - 31.01.2021
 
-#### Languages
+### Languages
 - Russia - Native
 - English - Elementary
