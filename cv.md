@@ -38,3 +38,49 @@ function findShort(s){
 ```
 
 ---
+
+### Experience
+
+**Course "JavaScript/Front-end"**  
+The Rolling Scopes  
+28.02.2021 - present  
+Performing algorithmic tasks in the language JavaScript.  
+Create a CV using Markdown.  
+
+**Course "Basics JavaScript"** 
+
+[Udemy](https://www.udemy.com/)  
+01.02.2021 - 28.02.2021   
+Performing algorithmic tasks in the language JavaScript.   
+
+**Course "Basics HTML/CSS"**  
+
+[Udemy](https://www.udemy.com/)  
+1.12.2020 - 31.01.2021  
+Website layout using HTML/CSS  
+Publishing a site on GitHub Pages    
+
+---
+
+### Education
+
+**Course "JavaScript/Front-end"**  
+The Rolling Scopes  
+28.02.2021 - present  
+
+**Course "Basics JavaScript"**  
+
+[Udemy](https://www.udemy.com/)    
+01.02.2021 - 28.02.2021  
+
+**Course "Basics HTML/CSS"**  
+
+[Udemy](https://www.udemy.com/)  
+1.12.2020 - 31.01.2021  
+
+---
+
+### Languages
+
+* Russia - Native
+* English - Elementary
