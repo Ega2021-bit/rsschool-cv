@@ -1,3 +1,72 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font: 400 14px/1 "PT Sans", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-around;
+}
+
+.vertical-line {
+  border-left: 36px solid green;
+  height: 225px;
+}
+.header-foto {
+}
+.header-foto-img {
+  width: 334px;
+  height: 225px;
+}
+
+.header-title {
+  padding: 30px 0 0 0;
+}
+
+.header-title-name {
+  font-size: 384%;
+  letter-spacing: 4px;
+  color: green;
+}
+
+.header-title-surname {
+  font-size: 249%;
+  letter-spacing: 2px;
+}
+
+.row {
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+
+}
