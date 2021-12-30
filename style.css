@@ -29,18 +29,28 @@ ul {
 .container {
   width: 800px;
   margin: 0 auto;
-  padding: 10px;
+  /* padding: 10px; */
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   /* justify-content: flex-start; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.header {
 }
 
 .vertical-line {
   border-left: 36px solid green;
   height: 225px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 .header-foto {
+  margin: 0 24px;
+  width: 60%;
 }
 .header-foto-img {
   width: 334px;
@@ -62,11 +72,45 @@ ul {
   letter-spacing: 2px;
 }
 
-.row {
+.contact {
+  width: 40%;
 }
 
-.contact {
+.main {
+  position: relative;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
 
+.based-information {
+  width: 60%;
+  margin: 0 34px 0 0;
+}
+
+.border {
+  border-bottom: 2px solid;
+  background: linear-gradient(35deg, green, #ddd);
+}
+
+.indentation {
+  padding-top: 10px;
+}
+h3 {
+  padding: 5px 0;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+.dline {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.aside {
+  width: 40%;
 }
