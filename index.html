@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-menu-list"><a href="#Summary">Summary</a></li>
+          <li class="nav-menu-list"><a href="#Experience">Experience</a></li>
+          <li class="nav-menu-list"><a href="#Skills">Skills</a></li>
+          <li class="nav-menu-list"><a href="#Code-examples">Code-examples</a></li>
+          <li class="nav-menu-list"><a href="#Education">Education</a></li>
+          <li class="nav-menu-list"><a href="#Languages">Languages</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <div class="vertical-line">
+            <figure class="header-foto">
+              <img class="header-foto-img" src="/img/_A4B2174.jpg" alt="foto" />
+            </figure>
+            <div class="contact">
+              <h2 class="border">Contact</h2>
+              <address>
+                <ul class="indentation dline">
+                  <li>Russia, Kaliningrad</li>
+                  <li>Email: egor91594@gmail.com</li>
+                  <li>Skype: egor91594</li>
+                  <li>Discord: cartman(@Ega2021-bit)</li>
+                </ul>
+              </address>
+            </div>
+          </div>
+          <div class="header-title">
+            <h1 class="header-title-name">Egor</h1>
+            <h1 class="header-title-surname">Tuguzhekov</h1>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="based-information">
+          <h2 class="border top-indent" id="Summary">Summary</h2>
+            <div class="indentation dline">
+              Great desire to work in the field of IT. Start a junior career at
+              <br />
+              EPAM and after 4 years, before growing up to senior. I have
+              good<br />
+              analytical skills, I am easy to learn, I work well in a team.
+              <br />
+            </div>
+          <h2 class="border top-indent" id="Experience">Experience</h2>
+          <section class="indentation">
+            <h3>Course "JavaScript/Front-end"</h3>
+            <div class="dline">
+              The Rolling Scopes <br />
+              28.02.2021 - present <br />
+              Performing algorithmic tasks in the language JavaScript. <br />
+              Create a CV using Markdown.<br />
+            </div>
+            <h3>Course "Basics JavaScript"</h3>
+            <div class="dline">
+              <a href="https://www.udemy.com/">Udemy</a><br />
+              01.02.2021 - 28.02.2021 <br />
+              Performing algorithmic tasks in the language JavaScript. <br />
+            </div>
+            <h3>Course "Basics HTML/CSS"</h3>
+            <div class="dline">
+              <a href="https://www.udemy.com/">Udemy</a><br />
+              1.12.2020 - 31.01.2021 <br />
+              Website layout using HTML/CSS <br />
+              Publishing a site on GitHub Pages <br />
+            </div>
+          </section>
+          <section>
+            <h2 class="border top-indent" id="Code-examples">Code-examples</h2>
+            <pre class="indentation">
+            <code>
+              function findShort(s){
+                const stringArray = s.trim().split(" ");
+              const orderedArray = stringArray.sort((a, b) => {
+                return a.length - b.length;
+              })
+              return orderedArray[0].length;
+            }
+            </code>
+          </pre>
+          </section>
+          <h2 class="border top-indent" id="Education">Education</h2>
+          <section class="indentation">
+            <h3>Course "JavaScript/Front-end"</h3>
+            <div class="dline">
+              The Rolling Scopes<br />
+              28.02.2021 - present <br />
+            </div>
+            <h3>Course "Basics JavaScript"</h3>
+            <div class="dline">
+              <a href="https://www.udemy.com/">Udemy</a><br />
+              01.02.2021 - 28.02.2021 <br />
+            </div>
+            <h3>Course "Basics HTML/CSS"</h3>
+            <div class="dline">
+              <a href="https://www.udemy.com/">Udemy</a><br />
+              1.12.2020 - 31.01.2021 <br />
+            </div>
+          </section>
+        </div>
+        <aside class="aside">
+          <div>
+            <h2 class="border" id="Skills">Skills</h2>
+            <ul class="indentation dline">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Visual Studio Code</li>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="border top-indent" id="Languages">Languages</h2>
+            <ul class="indentation dline">
+              <li>Russia - Native</li>
+              <li>English - Elementary</li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+      <footer class="footer">
+        <ul class="footer-list">
+          <li>
+            <a href="https://rs.school/js/"
+              ><img
+                class="logo-rs_school"
+                src="./img/rs-school-js1).svg"
+                alt="rs_school"
+            /></a>
+          </li>
+          <li>2021</li>
+          <li>
+            <a href="https://github.com/Ega2021-bit">
+              <img
+                class="logo-github"
+                src="./img/kisspng-computer-icons-download-github-clip-art-github-icon-5b4428956e3e61.7963800115311934934516.jpg"
+                alt="github"
+              />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
