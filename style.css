@@ -26,24 +26,63 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+h3 {
+  padding: 5px 0;
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
-  /* padding: 10px; */
   height: 100vh;
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* justify-content: space-around; */
   flex-wrap: wrap;
   align-content: flex-start;
 }
 
-.header {
+.indentation {
+  padding-top: 10px;
 }
+
+.dline {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.top-indent {
+  margin-top: 10px;
+}
+
+/* START NAV */
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 21px 0;
+}
+
+.nav-menu-list {
+  background: #008000;
+  box-shadow: 1px 2px 22px 21px #008000;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* START HEADER */
 
 .vertical-line {
   border-left: 36px solid green;
-  height: 225px;
+  height: 227px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -55,6 +94,10 @@ ul {
 .header-foto-img {
   width: 334px;
   height: 225px;
+}
+
+.contact {
+  width: 40%;
 }
 
 .header-title {
@@ -72,9 +115,8 @@ ul {
   letter-spacing: 2px;
 }
 
-.contact {
-  width: 40%;
-}
+
+/* START MAIN */
 
 .main {
   position: relative;
@@ -92,25 +134,29 @@ ul {
   background: linear-gradient(35deg, green, #ddd);
 }
 
-.indentation {
-  padding-top: 10px;
-}
-h3 {
-  padding: 5px 0;
-  text-decoration: underline;
-  text-decoration-color: green;
-}
-.dline {
-  line-height: 1.4;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
-li {
-  list-style-type: none;
-}
-
-
 .aside {
   width: 40%;
+}
+
+/* START FOOTER */
+.footer {
+  box-shadow: 2px 8px 26px 33px #008000;
+}
+
+.footer-list {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.logo-rs_school {
+  width: 125px;
+  height: 50px;
+}
+
+.logo-github {
+  width: 50px;
+  height: 50px;
 }
